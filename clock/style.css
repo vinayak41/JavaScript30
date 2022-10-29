@@ -1,0 +1,81 @@
+.clock {
+  border: 10px solid gray;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 20px gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.second-hand {
+  background-color: red;
+  height: 5px;
+  border-radius: 10px;
+  width: 41%;
+  position: absolute;
+  left: 50%;
+  transform-origin: 0;
+  transition: all cubic-bezier(0, 1.95, 0.5, 1.51);
+}
+
+.minute-hand {
+  background-color: gray;
+  height: 8px;
+  border-radius: 5px;
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  transform-origin: 0;
+}
+
+.hour-hand {
+  height: 10px;
+  background-color: black;
+  width: 30%;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  transform-origin: 0;
+}
+
+.clock .center {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.indicator-wrapper {
+  width: 50%;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 50%;
+  margin: 1px;
+  flex-shrink: 0;
+  transform-origin: 0;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  margin: 1px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 10px;
+}
+
+
+.indicator.bold {
+  width: 15px;
+  height: 15px;
+}
