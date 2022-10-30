@@ -9,6 +9,11 @@ const cards = [
     image: "/images/clock.png",
     url: "/clock",
   },
+  {
+    title: "CSS Variables",
+    image: "/images/CSS-variables.png",
+    url: "/CSS-variables",
+  },
 ];
 
 const cardsWrapperElement = document.querySelector(".cards-wrapper");
