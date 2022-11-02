@@ -14,6 +14,11 @@ const cards = [
     image: "/images/CSS-variables.png",
     url: "/CSS-variables",
   },
+  {
+    title: "Array Cardio",
+    image: "/images/array-cardio.png",
+    url: "/array-cardio",
+  }
 ];
 
 const cardsWrapperElement = document.querySelector(".cards-wrapper");
